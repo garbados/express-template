@@ -1,0 +1,16 @@
+doctype 5
+html
+  head
+    - css.root = "stylesheets"
+    - js.root = "javascripts"
+    block title
+      title= title
+    block style
+      != css('style.css')
+    block preload
+      //- javascript assets that should load before the body is finished, such as modernizr
+  body
+    block content
+    block templates
+    block scripts
+      != js('build.js')
