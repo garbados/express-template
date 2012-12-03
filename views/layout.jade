@@ -4,6 +4,8 @@ html
     - css.root = "stylesheets"
     - js.root = "javascripts"
     block title
+      meta(name="description", content="#{description}")
+      meta(name="keywords", content="#{keywords}")
       title= title
     block style
       != css('style.css')
