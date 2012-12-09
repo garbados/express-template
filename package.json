@@ -9,7 +9,6 @@
     "express": "3.0.0rc4",
     "jade": "*",
     "less": "*",
-    "js-yaml": "*",
     "connect-assets": "*"
   },
   "engines": {
