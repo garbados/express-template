@@ -4,8 +4,8 @@ html
     - css.root = "stylesheets"
     - js.root = "javascripts"
     block title
-      meta(name="description", content="#{description}")
-      title= title
+      meta(name="description", content="#{i18n.description}")
+      title= i18n.title
     block style
       != css('style.css')
     block preload
