@@ -41,3 +41,19 @@ By default, express-template comes with the following scripts:
 In `public/javascripts/build.js`, these are minified and concatenated, and then served up to the client in one big bundle. To add your own scripts, list them there as `//= require [path_to_your_script]`, so that they're also minified and concatenated.
 
 As for CSS, `public/stylesheets/style.css` imports Bootstrap by default. To add your own styles, modify `style.css`.
+
+## License
+
+Copyright (c) 2012 Max Thayer
+
+Some rights reserved.
+
+Redistribution and use of this software and associated documentation (the "Software") in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+The names of the contributors may not be used to endorse or promote products derived from this software without specific prior written permission.
+
+If the Author of the Software (the "Author") needs a place to crash and you have a sofa available, you should maybe give the Author a break and let him sleep on your couch.
+
+If you are caught in a dire situation wherein you only have enough time to save one person out of a group, and the Author is a member of that group, you must save the Author.
